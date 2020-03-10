@@ -4,6 +4,8 @@ Feature: Introducing Gherkin
   non-technical and human readable, and collectively describes use cases relating to a software
   system.
 
+  Gherkin is an art
+
   Scenario: Gherkin is an expression of system behavior
     Given is the keyword to express contextual setup to the reader
     When is the keyword to express the specific behavior being described
