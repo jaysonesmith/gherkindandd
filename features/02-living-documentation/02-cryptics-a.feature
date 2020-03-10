@@ -1,5 +1,9 @@
 Feature: Someone without knowledge of a product or feature should be able to understand it from reading a feature file
 
+  As an adventurer
+  I want to buy gear
+  So I can hurt things more
+
   Scenario: Witches sell "Sneaking Dagger"
     When my name is "Snaldrut"
     And I am a "gnome"
@@ -19,8 +23,3 @@ Feature: Someone without knowledge of a product or feature should be able to und
     And go to the "Quiet Lion" inn
     Then I should be able to kill the innkeeper
     And receive a loot item of "Fire Potion"
-
-  Scenario: Zaria will only sell the Sneaking Dagger to characters level 8 or higher
-    Given "Snaldrut" is level 8
-    When he attempts to buy the "Sneaking Dagger" from "Zaria"
-    Then he must receive it in his inventory
